@@ -1,13 +1,13 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router, // Remplacer BrowserRouter
   Route,
   Routes,
   Navigate,
 } from "react-router-dom";
+
 import ProfileSection from "./components/ProfileSection";
 import ExperienceSection from "./components/ExperienceSection";
-
 import EducationSection from "./components/EducationSection";
 import SkillsSection from "./components/SkillsSection";
 import ContactSection from "./components/ContactSection";
