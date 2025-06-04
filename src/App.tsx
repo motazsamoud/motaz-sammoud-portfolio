@@ -33,12 +33,12 @@ const App: React.FC = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Navigate to="/Portfolio" replace />} />
-          <Route path="/Portfolio" element={<ProfileSection />} />
-          <Route path="/Portfolio/experience" element={<ExperienceSection />} />
-          <Route path="/Portfolio/education" element={<EducationSection />} />
-          <Route path="/Portfolio/skills" element={<SkillsSection />} />
-          <Route path="/Portfolio/contact" element={<ContactSection />} />
+          <Route path="/" element={<Navigate to="/motaz-sammoud-portfolio" replace />} />
+          <Route path="/motaz-sammoud-portfolio" element={<ProfileSection />} />
+          <Route path="/motaz-sammoud-portfolio/experience" element={<ExperienceSection />} />
+          <Route path="/motaz-sammoud-portfolio/education" element={<EducationSection />} />
+          <Route path="/motaz-sammoud-portfolio/skills" element={<SkillsSection />} />
+          <Route path="/motaz-sammoud-portfolio/contact" element={<ContactSection />} />
         </Routes>
       </Router>
     </div>
